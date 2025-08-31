@@ -1,4 +1,6 @@
-FROM redmine:6.0.5-alpine
+ARG REDMINE_VERSION
+
+FROM redmine:${REDMINE_VERSION:-latest}
 
 USER root
 
