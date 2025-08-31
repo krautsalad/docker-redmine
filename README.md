@@ -1,6 +1,6 @@
 # docker-redmine
 
-Enhanced redmine installation.
+Enhanced Redmine installation with memcached and sidekiq support.
 
 **docker-redmine** is an Alpine-based Docker container running [Redmine](https://www.redmine.org). It includes additional useful gems to extend Redmine's functionality:
 
