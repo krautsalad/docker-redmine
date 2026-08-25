@@ -1,3 +1,7 @@
+# 7.0.0-1
+
+- Redmine update
+
 # 6.1.2-1
 
 - Redmine update

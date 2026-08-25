@@ -1,7 +1,7 @@
 #!/bin/sh
 set -ex
 
-REDMINE_VERSION=6.1.2-alpine
+REDMINE_VERSION=7.0.0-alpine
 
 SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 VERSION=$(git describe --tags "$(git rev-list --tags --max-count=1)")
